@@ -1,4 +1,23 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
 main {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+a.left-links {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+}
+
+a.left-links:first-of-type {
+    margin-left: 15px;
+}
