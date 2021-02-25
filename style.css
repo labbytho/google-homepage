@@ -3,8 +3,19 @@ body {
     font-family: arial,sans-serif;
 }
 
-main {
+navbar {
+    height: 60px;
+    padding: 6px;
+}
+
+.main {
     text-align: center;
+    margin-top: 30px;
+    flex: 1;
+}
+
+.main-img {
+    margin-top: 110x;
 }
 
 a {
@@ -20,4 +31,10 @@ a.left-links {
 
 a.left-links:first-of-type {
     margin-left: 15px;
+}
+
+a.right-links {
+    color: rgba(0,0,0,0.87);
+    flex: 0 0 auto;
+    justify-content: flex-end;
 }
